@@ -1,0 +1,15 @@
+{
+  "name": "eslint-config-gj",
+  "version": "1.0.0",
+  "description": "代码规范配置",
+  "author": "",
+  "license": "ISC",
+  "exports": {
+    ".": "./src/eslint.config.js",
+    "./eslint": "./src/eslint.config.js",
+    "./prettier": "./src/prettier.config.js",
+    "./stylelint": "./src/stylelint.config.js"
+  },
+  "main": "src/eslint.config.js",
+  "scripts": {}
+}
